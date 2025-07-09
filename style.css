@@ -1,0 +1,57 @@
+/* colors: #cfdbd5, #e8eddf, #f5cb5c, #242423,  background color: #333533  */
+
+* {
+  color: #cfdbd5;
+}
+
+
+body {
+    background-color: #333533;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+a {
+    color: #f5cbc;
+    text-decoration: none;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+h1 {
+  color: #f5cb5c;
+}
+
+h2 {
+  color: #8b7433;
+}
+
+.anime-list {
+  color: red;
+}
+
+.anime-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 1em;
+  list-style-type: none;
+  padding: 0;
+  width: 500px;
+}
+
+.anime-list li {
+    max-width: 150px;
+}
+
+.anime-list img {
+  width: 100%;
+  height: auto;
+}
